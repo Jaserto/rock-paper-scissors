@@ -9,19 +9,41 @@ justify-items: center;
 justify-content: center;
 margin: 2em 0;;
 position: relative;
-grid-gap: 50px;
+grid-gap: 30px 50px;
 & div:nth-of-type(3) {
     grid-column: span 2
 }
 
     .line{
-        height: 10px;
-        width: 100%;
-        
-        background: black;
+        height: 14px;
+    
+        background: rgba(0,0,0,.3);
         position: absolute;
-        left: 0;
-        top: 60px ;
+        left:60px;
+        top: 60px;
+        right: 58px;
+        &:before{
+            content: '';           
+            height: 14px;
+            background: rgba(0,0,0,.3);
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            right: 0px;
+            transform: rotate(60deg);
+            transform-origin: left top;
+        }
+        &:after{
+            content: '';           
+            height: 14px;
+            background: rgba(0,0,0,.3);
+            position: absolute;
+            left:0px;
+            top: 0px;
+            right: 0px;
+            transform: rotate(-60deg);
+            transform-origin: right top;
+        }
     }
 
 `

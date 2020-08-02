@@ -12,6 +12,8 @@ box-sizing: border-box;
 background:white;
 box-shadow: 0 5px 0 ${(props) => props.color.border};
 cursor: pointer;
+position:relative;
+z-index: 2;
 &:active{
     transform: scale(.9);
 }
