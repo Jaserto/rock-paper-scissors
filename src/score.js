@@ -2,14 +2,17 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ScoreStyled = styled.div`
+    width: 80px;
     background: white;
     border-radius: 8px;
     text-align: center;
     padding: 10px 0;
+
    span{
     color: grey;
     text-transform: uppercase;
     font-size: 10px;
+    font-weight: bold;
    }
    p{
        color: grey;

@@ -3,6 +3,7 @@ import './App.css';
 import Header from './header'
 import styled from 'styled-components'
 import Wrapper from './wrapper'
+import Table from './table'
 
 
 const AppStyled = styled.main`
@@ -20,6 +21,7 @@ function App() {
 
       <Wrapper>
         <Header />
+        <Table />
       </Wrapper>
       
     </AppStyled>

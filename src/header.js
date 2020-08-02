@@ -3,10 +3,13 @@ import styled from 'styled-components'
 import Score from './score.js'
 
 const HeaderStyled = styled.div`
+display:flex;
 color: white;
 padding: 12px 12px 12px 23px;
 border-radius: 5px; 
 border: 3px solid rgba(255, 255,255, .29);
+justify-content: space-between;
+align-items: center;
 
     h1 {
     font-size: 21px;
